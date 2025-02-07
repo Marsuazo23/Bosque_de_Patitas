@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin:0px;
+    font-family: 'Times New Roman', Arial, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1.2rem;
+    height: 130%;
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: darkcyan !important; 
+}
+
+.navbar a {
+    color: white !important;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    background-color: darkcyan !important; 
+}
+
+.dropdown-menu .dropdown-item {
+    color: white !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: lightblue !important;
+    color: black !important;
+}
+
+.carousel-inner img {
+    height: 85vh; 
+    object-fit: cover; 
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-success {
+    background-color: darkblue;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: blue;
+}
+
+footer {
+    background-color: darkcyan; 
+    color: white; 
+    margin-top: auto;
+}
+
+footer a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+footer a img {
+    transition: transform 0.3s ease;
+}
+
+footer a:hover img {
+    transform: scale(1.1); 
+}
+
+footer p {
+    margin-top: 10px; 
+    font-size: 1rem;
+}
