@@ -59,6 +59,15 @@ html, body {
     background-color: blue;
 }
 
+.btn-primary {
+    background-color: darkblue;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: blue;
+}
+
 footer {
     background-color: darkcyan; 
     color: white; 
