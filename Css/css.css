@@ -18,25 +18,69 @@ html, body {
 }
 
 .navbar {
-    background-color: darkcyan !important; 
-}
-
-.navbar a {
-    color: white !important;
+    background-color: darkcyan !important;
     font-weight: bold;
 }
 
+.navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+    white-space: nowrap; 
+    overflow: hidden; 
+}
+
+.navbar .brand-text {
+    font-size: 1.2rem;
+    color: white;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    flex-shrink: 1; 
+}
+
+.navbar .logo {
+    width: 120px; 
+    height: auto;
+    margin-right: 0.5rem; 
+}
+
+.navbar .navbar-brand span {
+    font-size: 1.2rem; 
+    color: white;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    padding: 0.5rem 0.75rem; 
+    font-size: 0.9rem; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: lightblue !important;
+}
+
 .dropdown-menu {
-    background-color: darkcyan !important; 
+    background-color: darkcyan !important;
+    border: none;
 }
 
 .dropdown-menu .dropdown-item {
     color: white !important;
+    font-size: 0.9rem; 
 }
 
 .dropdown-menu .dropdown-item:hover {
     background-color: lightblue !important;
     color: black !important;
+}
+
+.navbar-nav {
+    flex-wrap: nowrap; 
 }
 
 .carousel-inner img {
